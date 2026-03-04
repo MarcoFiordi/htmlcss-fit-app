@@ -1,0 +1,5 @@
+.stats-container .stats-grid:first-child .stat-number::before {
+    content: "\1F525";
+    display: block;
+    font-size: 20px;
+}
