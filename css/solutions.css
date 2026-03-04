@@ -35,4 +35,10 @@
     border-left: 5px solid rgb(40, 190, 20);
     background: #c8e6d28a;
 }
-
+/* EMOJI FULMINI */
+.exercise-item:nth-of-type(even) .exercise-name::before{
+  content: "\26A1";
+  display: block;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
