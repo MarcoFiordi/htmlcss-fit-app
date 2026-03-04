@@ -3,3 +3,12 @@
     display: block;
     font-size: 20px;
 }
+.stats-container .stats-grid:nth-child(3){
+    background:linear-gradient(#2563eb, #7c3aed);
+}
+.stats-container .stats-grid:nth-child(3) .stat-number{
+    color: white;
+}
+.stats-container .stats-grid:nth-child(3) .stat-label {
+    color: white;
+}
