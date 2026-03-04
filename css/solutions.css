@@ -42,3 +42,10 @@
   margin-bottom: 4px;
   font-size: 14px;
 }
+.goals-container input:focus,
+.goals-container select:focus {
+    border: 2px solid #2563eb;
+    box-shadow: 0 0 6px rgba(37, 99, 235, 0.5);
+    outline: none;
+    transition: all 0.25 ease;
+}
