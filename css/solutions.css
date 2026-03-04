@@ -1,14 +1,30 @@
+/* FIAMMA CALORIE*/
 .stats-container .stats-grid:first-child .stat-number::before {
     content: "\1F525";
     display: block;
     font-size: 20px;
 }
+/* COLORE BACKGROUND TABELLA */
 .stats-container .stats-grid:nth-child(3){
     background:linear-gradient(#2563eb, #7c3aed);
 }
+/* COLORE NUMERO TABELLA */
 .stats-container .stats-grid:nth-child(3) .stat-number{
     color: white;
 }
+/* COLORE TESTO TABELLA*/
 .stats-container .stats-grid:nth-child(3) .stat-label {
     color: white;
+}
+/* EFFETTO HOVER SULLE STATIC CARD*/
+.stats-container .stats-grid {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.stats-container .stats-grid:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px rgba(0,0,0,0.18);
+}
+.workout-section .workout-plan:nth-of-type(2){
+    border-left: 5px solid orange;
+    background: #fff7cc;
 }
