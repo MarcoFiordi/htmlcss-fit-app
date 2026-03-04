@@ -57,4 +57,34 @@
 }
 .save-btn {
     transition: transform .2s ease, box-shadow .2 ease;
+
 }
+/* INSERITO IL 65% NELLA BARRA */
+.progress-fill{
+    position: relative;
+}
+
+.progress-fill::after {
+    content: "65%";
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-60%);
+    color: white;
+    font-size: 14px;   
+}
+/* ICONE FOOTER SISTEMATE E HOME CHE RIMANE SELEZIONATA*/
+
+.nav-item:hover {
+    background-color: rgba(0,0,0,0.08);
+    color: #3b82f6;
+}
+
+.nav-footer .nav-item:first-child {
+    background-color: rgba(0,0,0,0.08);
+    color: #0751c9;
+}
+
+
+
+
